@@ -3,24 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Simple table</title>
+    <title>Animals table</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Simple table</h1>
+    <h1>Animals table</h1>
 
     <table>
       <tr>
-        <td>Hi, I'm your first cell.</td>
-        <td>I'm your second cell.</td>
-        <td>I'm your third cell.</td>
-        <td>I'm your fourth cell.</td>
+        <th colspan="2">Animals</th>
       </tr>
       <tr>
-        <td>Second row, first cell.</td>
-        <td>Cell 2.</td>
-        <td>Cell 3.</td>
-        <td>Cell 4.</td>
+        <th colspan="2">Hippopotamus</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Horse</th>
+        <td>Mare</td>
+      </tr>
+      <tr>
+        <td>Stallion</td>
+      </tr>
+      <tr>
+        <th colspan="2">Crocodile</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Chicken</th>
+        <td>Hen</td>
+      </tr>
+      <tr>
+        <td>Rooster</td>
       </tr>
     </table>
   </body>
